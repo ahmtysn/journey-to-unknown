@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Chapter1({ seeChapter2, setSeeChapter2 }) {
-  console.log({ chap1: seeChapter2 });
-
   const [accept, setAccept] = useState(false);
   const [clicked, setClicked] = useState(false);
 
@@ -13,8 +12,6 @@ function Chapter1({ seeChapter2, setSeeChapter2 }) {
   const acceptOffer = () => {
     setAccept(true);
     setClicked(true);
-
-    console.log('accept');
   };
   const rejectOffer = () => {
     setAccept(false);
@@ -45,20 +42,31 @@ function Chapter1({ seeChapter2, setSeeChapter2 }) {
         <p className='m-left m-right'>Run run and run...</p>
         <img src='images/escape/escape1.jpeg' alt='escape' />
       </div>
-      <div className='row fullPage'>
-        <img src='images/offer/offer4.png' alt='run' />
-        <p className='m-left'>An interesting offer, Do you want to join us ?</p>
+      <div className='column fullPage'>
+        <div className='row'>
+          <img src='images/offer/offer4.png' alt='run' />
+          <p className='m-left'>
+            An interesting offer, Do you want to join us ?
+          </p>
+        </div>
+        <div className='row'>
+          <button onClick={acceptOffer}>YES</button>
+          <button onClick={rejectOffer}>NO</button>
+        </div>
       </div>
-      <div className='row fullPage'>
-        <button onClick={acceptOffer}>YES</button>
-        <button onClick={rejectOffer}>NO</button>
-      </div>
-      {clicked && (
+      {clicked && accept && (
         <div className='column fullPage'>
-          {accept && clicked && <h1>Welcome to our world...</h1>}
-          {!accept && clicked && <h1>Evine don seni korkak pislik!</h1>}
+          <h1>Welcome to our world...</h1>
           <p>To learn more thing, click on Chapter 2</p>
-          <button onClick={getChapter2}>Chapter 2</button>
+          <Link to='/chapter2'>
+            <button onClick={getChapter2}>Chapter 2</button>
+          </Link>
+        </div>
+      )}
+      {clicked && !accept && (
+        <div className='column fullPage'>
+          <h1>Evine don seni korkak pislik!</h1>
+          <p>Go Home Yanky..</p>
         </div>
       )}
     </div>
