@@ -4,10 +4,10 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import NavBar from './components/NavBar';
 import Home from './components/Home';
-import Chapter1 from './components/Chapter1';
-import Chapter2 from './components/Chapter2';
-import Chapter3 from './components/Chapter3';
-import Chapter4 from './components/Chapter4';
+import Chapter1 from './pages/chapter1/Chapter1';
+import Chapter2 from './pages/chapter2/Chapter2';
+import Chapter3 from './pages/chapter3/Chapter3';
+import Chapter4 from './pages/chapter4/Chapter4';
 import FollowStory from './components/FollowStory';
 import Form from './components/Form.js';
 
@@ -27,26 +27,17 @@ function App() {
           </Route>
           {seeChapter1 && (
             <Route path='/chapter1'>
-              <Chapter1
-                seeChapter2={seeChapter2}
-                setSeeChapter2={setSeeChapter2}
-              />
+              <Chapter1 setSeeChapter2={setSeeChapter2} />
             </Route>
           )}
           {seeChapter2 && (
             <Route path='/chapter2'>
-              <Chapter2
-                seeChapter3={seeChapter3}
-                setSeeChapter3={setSeeChapter3}
-              />
+              <Chapter2 setSeeChapter3={setSeeChapter3} />
             </Route>
           )}
           {seeChapter3 && (
             <Route path='/chapter3'>
-              <Chapter3
-                seeChapter4={seeChapter4}
-                setSeeChapter4={setSeeChapter4}
-              />
+              <Chapter3 setSeeChapter4={setSeeChapter4} />
             </Route>
           )}
           {seeChapter4 && (

@@ -17,21 +17,21 @@ function Chapter4() {
           You took big responsibility. In fron of the police officer killed you
           these guys. It is a mistake or not we will see...
         </p>
-        <img src='images/prison/arrest.jpeg' alt='' />
+        <img src='images/chapter-4/arrest.jpeg' alt='arrest' />
       </div>
       <div className='row fullPage'>
-        <img src='images/prison/prison.jpeg' alt='' />
+        <img src='images/chapter-4/prison3.jpeg' alt='prison' />
         <p className='m-right m-left'>
           Now you have time to think..What will you do in judge ?
         </p>
-        <img src='images/prison/prison1.jpeg' alt='' />
+        <img src='images/chapter-4/prison1.jpeg' alt='prison' />
       </div>
       <div className='row fullPage'>
         <p className='m-right'>
           Judge asked you ? Are you regret? Who is your boss ? with who do you
           work?
         </p>
-        <img src='images/judge/questioning.jpeg' alt='' />
+        <img src='images/chapter-4/questioning.jpeg' alt='questioning' />
       </div>
       <div className='column fullPage'>
         <p>You have 2 options</p>
@@ -40,7 +40,7 @@ function Chapter4() {
             <img
               onClick={actionToJudge}
               className='options-img'
-              src='images/choice/kill.jpeg'
+              src='images/chapter-4/not-regret.jpeg'
               alt='not-regret'
             />
             <p className='m-top'>I'm not regret.I have no word to you.</p>
@@ -49,7 +49,7 @@ function Chapter4() {
             <img
               onClick={actionToJudge}
               className='options-img'
-              src='images/choice/save.jpg'
+              src='images/chapter-4/regret.jpg'
               alt='regret'
             />
             <p className='m-top'>
@@ -65,13 +65,10 @@ function Chapter4() {
               Judgement time you get 30 years sentences... It is incredible !!
               But you were too brave, your friends will save you.
             </p>
-            <img src='images/judge/judge1.jpeg' alt='' />
+            <img src='images/chapter-4/judge1.jpeg' alt='judge' />
           </div>
           <div className='row fullPage'>
-            <img
-              src='https://images.pexels.com/photos/5692736/pexels-photo-5692736.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
-              alt=''
-            />
+            <img src='images/chapter-4/jail.jpeg' alt='jail' />
             <p className='m-left'>
               Cezaevinde krallar gibi karsilandin. Mukemmel bir hayatin var,
               herkes sana saygi duyuyor. Dostlarin ziyeretinde bir kac ay icinde
@@ -79,22 +76,26 @@ function Chapter4() {
             </p>
           </div>
           <div className='row fullPage'>
-            <img src='images/bribe/bribe.jpeg' alt='' />
+            <img src='images/chapter-4/bribe2.jpeg' alt='bribe' />
             <p className='m-left m-right'>Paranin acamayacagi kapi yoktur.</p>
             <div className='column'>
               <img
                 className='half-img m-bottom'
-                src='images/bribe/bribe1.jpeg'
-                alt=''
+                src='images/chapter-4/bribe1.jpeg'
+                alt='bribe'
               />
-              <img className='half-img' src='images/prison/free.jpeg' alt='' />
+              <img
+                className='half-img'
+                src='images/chapter-4/free.jpeg'
+                alt='free'
+              />
             </div>
           </div>
           <div className='row fullPage'>
             <p className='m-right'>
               Artik herkesin saygi duydugu gelecegin babasisin....
             </p>
-            <img src='images/target/target.jpeg' alt='' />
+            <img src='images/chapter-4/target.jpeg' alt='target' />
           </div>
         </div>
       )}
@@ -106,10 +107,10 @@ function Chapter4() {
               sentences. Your friends will not help you you told everything.
               Maybe you can die in prison accidently?
             </p>
-            <img src='images/judge/questioning.jpeg' alt='' />
+            <img src='images/chapter-4/query.jpeg' alt='query' />
           </div>
           <div className='row fullPage'>
-            <img src='images/fight/fight.jpeg' alt='' />
+            <img src='images/chapter-4/execution.jpeg' alt='execution' />
             <p className='m-left'>
               Bir kac gun icinde odanda olu bulundun, ne yazik !!
             </p>

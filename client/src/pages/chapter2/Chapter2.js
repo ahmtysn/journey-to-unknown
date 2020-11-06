@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-function Chapter2({ seeChapter3, setSeeChapter3 }) {
+function Chapter2({ setSeeChapter3 }) {
   const [name, setName] = useState('');
   const [age, setAge] = useState('');
   const [validAge, setValidAge] = useState(false);
@@ -43,10 +43,10 @@ function Chapter2({ seeChapter3, setSeeChapter3 }) {
         <p className='m-right'>
           You walk in the long silent corridor to meet with godfather
         </p>
-        <img src='images/boss/boss.jpeg' alt='' />
+        <img src='images/chapter-2/boss1.jpeg' alt='boss' />
       </div>
       <div className='row fullPage'>
-        <img src='images/boss/boss2.jpeg' alt='' />
+        <img src='images/chapter-2/boss2.jpeg' alt='boss' />
         <div className='column m-left'>
           <p>Asked me my name, I feel myself horrible!</p>
           <form>
@@ -76,7 +76,7 @@ function Chapter2({ seeChapter3, setSeeChapter3 }) {
               <span style={{ fontSize: '2.3rem' }}>&#129409;</span>
             </p>
           </div>
-          <img src='images/fight/fight3.jpeg' alt='' />
+          <img src='images/chapter-2/new-friends.jpeg' alt='new-friends' />
         </div>
       )}
       {name && age && !validAge && (
@@ -90,13 +90,13 @@ function Chapter2({ seeChapter3, setSeeChapter3 }) {
               We don't share our life with {age} years old babies !!!
             </p>
           </div>
-          <img src='images/choice/gangster.jpeg' alt='' />
+          <img src='images/chapter-2/bad-boys.jpeg' alt='bad-boys' />
         </div>
       )}
       {name && validAge && (
         <div>
           <div className='row fullPage'>
-            <img src='images/newLife/classic.jpeg' alt='' />
+            <img src='images/chapter-2/classic-car.jpeg' alt='classic-car' />
             <p className='m-left'>
               You will learn how to fight but first should buy a weapon.
             </p>
@@ -105,15 +105,15 @@ function Chapter2({ seeChapter3, setSeeChapter3 }) {
             <p className='m-right'>
               The seller well-known, he is the boss of weapons.
             </p>
-            <img src='images/gunSeller/seller.jpeg' alt='' />
+            <img src='images/chapter-2/gun-seller.jpeg' alt='gun-seller' />
           </div>
           <div className='row fullPage'>
-            <img src='images/gunSeller/seller1.jpeg' alt='' />
+            <img src='images/chapter-2/guns.jpeg' alt='guns' />
             <p className='m-left m-right'>
               There are many options. But do you have enogh money.. How will you
               buy?
             </p>
-            <img src='images/gunSeller/seller2.jpeg' alt='' />
+            <img src='images/chapter-2/weapons.jpeg' alt='weapons' />
           </div>
           <div className='column fullPage'>
             <p>The seller asked you?</p>
@@ -147,7 +147,7 @@ function Chapter2({ seeChapter3, setSeeChapter3 }) {
                 <img
                   onClick={actionToSeller}
                   className='options-img'
-                  src='images/choice/kill.jpeg'
+                  src='images/chapter-2/kill.jpeg'
                   alt='kill'
                 />
                 <p className='m-top'>Kill Him</p>
@@ -156,7 +156,7 @@ function Chapter2({ seeChapter3, setSeeChapter3 }) {
                 <img
                   onClick={actionToSeller}
                   className='options-img'
-                  src='images/choice/save.jpg'
+                  src='images/chapter-2/forgive.jpg'
                   alt='never-mind'
                 />
                 <p className='m-top'>Forgive Him</p>
