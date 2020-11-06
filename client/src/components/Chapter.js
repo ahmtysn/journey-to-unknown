@@ -1,12 +1,12 @@
 import React from 'react';
-import Next from './Next';
+import Direction from './Direction';
 
 function Chapter({ chapter, info, path }) {
   return (
     <div className='column fullPage'>
       <h1>Chapter {chapter}</h1>
       <h4>{info}</h4>
-      <Next path={path} />
+      <Direction children='Next' path={path} />
     </div>
   );
 }

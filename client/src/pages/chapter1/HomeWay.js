@@ -1,5 +1,5 @@
 import React from 'react';
-import Next from '../../components/Next';
+import Direction from '../../components/Direction';
 
 function HomeWay() {
   return (
@@ -9,7 +9,7 @@ function HomeWay() {
         A little boy was too happy because today is his birthday and his mother
         should have done super cakes...
       </p>
-      <Next path='/chapter1/2' />
+      <Direction children='Next' path='/chapter1/2' />
     </div>
   );
 }

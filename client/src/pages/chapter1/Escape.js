@@ -1,5 +1,5 @@
 import React from 'react';
-import Next from '../../components/Next';
+import Direction from '../../components/Direction';
 
 function Escape() {
   return (
@@ -19,7 +19,7 @@ function Escape() {
           alt='run-escape'
         />
       </div>
-      <Next path='/chapter1/4' />
+      <Direction children='Next' path='/chapter1/4' />
     </div>
   );
 }
