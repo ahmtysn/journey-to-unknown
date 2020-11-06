@@ -1,15 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Offer(props) {
+function Offer() {
   return (
     <div className='column fullPage'>
       <div className='row'>
-        <img src='images/chapter-1/offer.png' alt='offer' />
+        <img src='../images/chapter-1/offer.png' alt='offer' />
         <p className='m-left'>An interesting offer, Do you want to join us ?</p>
       </div>
       <div className='row'>
-        <button onClick={props.acceptOffer}>YES</button>
-        <button onClick={props.rejectOffer}>NO</button>
+        <Link to='/chapter2'>
+          <button>YES</button>
+        </Link>
+        <Link to='/go-home'>
+          <button>NO</button>
+        </Link>
       </div>
     </div>
   );

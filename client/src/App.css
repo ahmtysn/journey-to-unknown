@@ -64,12 +64,17 @@ button {
   width: 150px;
   height: 150px;
 }
+.next-btn button {
+  position: absolute;
+  top: 85%;
+  right: 0;
+}
 .navbar {
   overflow: hidden;
   background-color: #333;
   position: fixed;
   top: 25%;
-  right: 0;
+  left: 0;
   width: 5%;
 }
 
