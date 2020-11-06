@@ -150,7 +150,7 @@ function Chapter2({ seeChapter3, setSeeChapter3 }) {
                   src='images/choice/kill.jpeg'
                   alt='kill'
                 />
-                <p>Kill Him</p>
+                <p className='m-top'>Kill Him</p>
               </div>
               <div className='column'>
                 <img
@@ -159,7 +159,7 @@ function Chapter2({ seeChapter3, setSeeChapter3 }) {
                   src='images/choice/save.jpg'
                   alt='never-mind'
                 />
-                <p>Forgive Him</p>
+                <p className='m-top'>Forgive Him</p>
               </div>
             </div>
           </div>
@@ -174,7 +174,7 @@ function Chapter2({ seeChapter3, setSeeChapter3 }) {
       {(enough || respond === 'kill') && (
         <div className='column fullPage'>
           <p>You are hero</p>
-          <p>To learn more thing, click on Chapter 2</p>
+          <p>To learn more thing, click on Chapter 3</p>
           <Link to='/chapter3'>
             <button onClick={getChapter3}>Chapter 3</button>
           </Link>

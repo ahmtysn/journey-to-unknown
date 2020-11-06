@@ -9,33 +9,54 @@ import Chapter2 from './components/Chapter2';
 import Chapter3 from './components/Chapter3';
 import Chapter4 from './components/Chapter4';
 import FollowStory from './components/FollowStory';
+import Form from './components/Form.js';
 
 function App() {
   const [seeChapter1, setSeeChapter1] = useState(false);
   const [seeChapter2, setSeeChapter2] = useState(false);
   const [seeChapter3, setSeeChapter3] = useState(false);
+  const [seeChapter4, setSeeChapter4] = useState(false);
 
   return (
     <div className='App'>
       <Router>
         <NavBar />
-        <Route path='/' exact>
-          <Home seeChapter1={seeChapter1} setSeeChapter1={setSeeChapter1} />
-        </Route>
-        <Route path='/chapter1' exact>
-          <Chapter1 seeChapter2={seeChapter2} setSeeChapter2={setSeeChapter2} />
-        </Route>
-        <Route path='/chapter2'>
-          {seeChapter2 && (
-            <Chapter2
-              seeChapter3={seeChapter3}
-              setSeeChapter3={setSeeChapter3}
-            />
+        <Switch>
+          <Route path='/' exact>
+            <Home seeChapter1={seeChapter1} setSeeChapter1={setSeeChapter1} />
+          </Route>
+          {seeChapter1 && (
+            <Route path='/chapter1'>
+              <Chapter1
+                seeChapter2={seeChapter2}
+                setSeeChapter2={setSeeChapter2}
+              />
+            </Route>
           )}
-        </Route>
-        <Route path='/chapter3'>{seeChapter3 && <Chapter3 />}</Route>
-        <Route path='/chapter4'>{seeChapter2 && <Chapter4 />}</Route>
-        <Route path='/*' component={FollowStory} />
+          {seeChapter2 && (
+            <Route path='/chapter2'>
+              <Chapter2
+                seeChapter3={seeChapter3}
+                setSeeChapter3={setSeeChapter3}
+              />
+            </Route>
+          )}
+          {seeChapter3 && (
+            <Route path='/chapter3'>
+              <Chapter3
+                seeChapter4={seeChapter4}
+                setSeeChapter4={setSeeChapter4}
+              />
+            </Route>
+          )}
+          {seeChapter4 && (
+            <Route path='/chapter4'>
+              <Chapter4 />
+            </Route>
+          )}
+          <Route path='/form' exact component={Form} />
+          <Route path='/*' component={FollowStory} />
+        </Switch>
       </Router>
     </div>
   );
