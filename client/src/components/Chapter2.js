@@ -93,37 +93,41 @@ function Chapter2({ seeChapter3, setSeeChapter3 }) {
           <img src='images/choice/gangster.jpeg' alt='' />
         </div>
       )}
-      <div className='row fullPage'>
-        <img src='images/newLife/classic.jpeg' alt='' />
-        <p className='m-left'>
-          You will learn how to fight but first should buy a weapon.
-        </p>
-      </div>
-      <div className='row fullPage'>
-        <p className='m-right'>
-          The seller well-known, he is the boss of weapons.
-        </p>
-        <img src='images/gunSeller/seller.jpeg' alt='' />
-      </div>
-      <div className='row fullPage'>
-        <img src='images/gunSeller/seller1.jpeg' alt='' />
-        <p className='m-left m-right'>
-          There are many options. But do you have enogh money.. How will you
-          buy?
-        </p>
-        <img src='images/gunSeller/seller2.jpeg' alt='' />
-      </div>
-      <div className='column fullPage'>
-        <p>The seller asked you?</p>
-        <p>How much money do you have ?</p>
-        <p>at least you must have 1000$</p>
-        <input
-          type='number'
-          name='money'
-          placeholder='How much do you have?'
-          onChange={e => setMoney(e.target.value)}
-        />
-      </div>
+      {name && validAge && (
+        <div>
+          <div className='row fullPage'>
+            <img src='images/newLife/classic.jpeg' alt='' />
+            <p className='m-left'>
+              You will learn how to fight but first should buy a weapon.
+            </p>
+          </div>
+          <div className='row fullPage'>
+            <p className='m-right'>
+              The seller well-known, he is the boss of weapons.
+            </p>
+            <img src='images/gunSeller/seller.jpeg' alt='' />
+          </div>
+          <div className='row fullPage'>
+            <img src='images/gunSeller/seller1.jpeg' alt='' />
+            <p className='m-left m-right'>
+              There are many options. But do you have enogh money.. How will you
+              buy?
+            </p>
+            <img src='images/gunSeller/seller2.jpeg' alt='' />
+          </div>
+          <div className='column fullPage'>
+            <p>The seller asked you?</p>
+            <p>How much money do you have ?</p>
+            <p>at least you must have 1000$</p>
+            <input
+              type='number'
+              name='money'
+              placeholder='How much do you have?'
+              onChange={e => setMoney(e.target.value)}
+            />
+          </div>
+        </div>
+      )}
       {enough && (
         <div className='column fullPage'>
           <p>You can buy what ever you want boy!</p>

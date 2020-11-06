@@ -3,9 +3,6 @@ import React from 'react';
 function Chapter3() {
   return (
     <div>
-      <div className='column fullPage'>
-        <h1>Chapter 3</h1>
-      </div>
       <div className='row fullPage'>
         <img src='images/fight/captain.jpeg' alt='' />
         <p className='m-left m-right'>
@@ -41,6 +38,7 @@ function Chapter3() {
           <img className='half-img' src='images/enemy/enemy1.jpeg' alt='' />
         </div>
       </div>
+      <div className='row fullPage'></div>
     </div>
   );
 }

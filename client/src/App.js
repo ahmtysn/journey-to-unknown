@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Chapter1 from './components/Chapter1';
 import Chapter2 from './components/Chapter2';
 import Chapter3 from './components/Chapter3';
 import Chapter4 from './components/Chapter4';
+import FollowStory from './components/FollowStory';
 
 function App() {
   const [seeChapter1, setSeeChapter1] = useState(false);
@@ -15,10 +18,11 @@ function App() {
   return (
     <div className='App'>
       <Router>
+        <NavBar />
         <Route path='/' exact>
           <Home seeChapter1={seeChapter1} setSeeChapter1={setSeeChapter1} />
         </Route>
-        <Route path='/chapter1'>
+        <Route path='/chapter1' exact>
           <Chapter1 seeChapter2={seeChapter2} setSeeChapter2={setSeeChapter2} />
         </Route>
         <Route path='/chapter2'>
@@ -31,6 +35,7 @@ function App() {
         </Route>
         <Route path='/chapter3'>{seeChapter3 && <Chapter3 />}</Route>
         <Route path='/chapter4'>{seeChapter2 && <Chapter4 />}</Route>
+        <Route path='/*' component={FollowStory} />
       </Router>
     </div>
   );
