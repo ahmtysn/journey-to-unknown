@@ -1,4 +1,4 @@
-# Realtime Chat Application
+# Interactive story with ReactJS
 
 ### [Live Site](https://5fa1a7e81c1e7c0093456132--loving-engelbart-ad9d28.netlify.app/)
 
