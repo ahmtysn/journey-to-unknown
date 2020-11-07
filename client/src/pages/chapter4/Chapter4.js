@@ -19,6 +19,7 @@ function Chapter4() {
       <Route path='/chapter4' exact>
         <Chapter
           chapter={4}
+          className='chapter4 large column fullPage'
           info='Last Part. We will see what will happen ?'
           path='chapter4/arrest'
         />

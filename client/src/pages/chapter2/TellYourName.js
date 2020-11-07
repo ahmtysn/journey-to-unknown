@@ -10,11 +10,11 @@ function TellYourName({ data, setData }) {
   }, [data.age]);
 
   return (
-    <div className='row fullPage'>
-      <img src='../images/chapter-2/boss2.jpeg' alt='boss' />
-      <div className='column m-left'>
-        <p>Asked me my name, I feel myself horrible!</p>
-        <form onSubmit={e => console.log('ahmet')}>
+    <div>
+      <div className='row fullPage'>
+        <img src='../images/chapter-2/boss2.jpeg' alt='boss' />
+        <div className='column m-left'>
+          <p>Asked me my name, I feel myself horrible!</p>
           <div className='column'>
             <input
               className='m-bottom m-top'
@@ -25,22 +25,22 @@ function TellYourName({ data, setData }) {
             <input
               type='number'
               name='age'
-              placeholder='age'
+              placeholder='Age'
               onChange={e => setData({ ...data, age: e.target.value })}
             />
           </div>
-        </form>
+        </div>
+        {data.name && data.age && (
+          <Direction
+            children='Next'
+            path={
+              data.name && isAdult
+                ? '/chapter2/team-members'
+                : '/chapter2/too-young'
+            }
+          />
+        )}
       </div>
-      {data.name && data.age && (
-        <Direction
-          children='Next'
-          path={
-            data.name && isAdult
-              ? '/chapter2/team-members'
-              : '/chapter2/too-young'
-          }
-        />
-      )}
     </div>
   );
 }

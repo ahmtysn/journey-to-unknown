@@ -13,7 +13,8 @@ function Chapter1() {
       <Route path='/chapter1' exact>
         <Chapter
           chapter={1}
-          info='Write your story!'
+          className='chapter1 column large fullPage'
+          info='Time to learn the hard truth!'
           path='chapter1/home-way'
         />
       </Route>
