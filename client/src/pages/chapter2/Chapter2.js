@@ -33,7 +33,7 @@ function Chapter2() {
         <TellYourName data={data} setData={setData} />
       </Route>
       <Route path='/chapter2/team-members'>
-        <TeamMembers />
+        <TeamMembers data={data} />
       </Route>
       <Route path='/chapter2/too-young'>
         <TooYoung data={data} setData={setData} />

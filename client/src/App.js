@@ -13,11 +13,6 @@ import Form from './components/Form.js';
 import GoHome from './components/GoHome';
 
 function App() {
-  // const [seeChapter1, setSeeChapter1] = useState(false);
-  // const [seeChapter2, setSeeChapter2] = useState(false);
-  // const [seeChapter3, setSeeChapter3] = useState(false);
-  // const [seeChapter4, setSeeChapter4] = useState(false);
-
   return (
     <div className='App'>
       <Router>
