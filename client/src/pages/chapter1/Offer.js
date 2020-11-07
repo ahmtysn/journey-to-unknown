@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { OpenContext } from '../../components/OpenContext';
 
 function Offer() {
+  const { open, setOpen } = useContext(OpenContext);
   return (
     <div className='column fullPage'>
       <div className='row'>
@@ -10,7 +12,9 @@ function Offer() {
       </div>
       <div className='row'>
         <Link to='/chapter2'>
-          <button>YES</button>
+          <button onClick={() => setOpen({ ...open, isOpenC2: true })}>
+            YES
+          </button>
         </Link>
         <Link to='/go-home'>
           <button>NO</button>
