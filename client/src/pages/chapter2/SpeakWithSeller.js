@@ -8,7 +8,7 @@ function SpeakWithSeller() {
         The seller well-known, he is the boss of weapons.
       </p>
       <img src='../images/chapter-2/gun-seller.jpeg' alt='gun-seller' />
-      <Direction children='Next' path='/chapter2/7' />
+      <Direction children='Next' path='/chapter2/select-gun' />
     </div>
   );
 }

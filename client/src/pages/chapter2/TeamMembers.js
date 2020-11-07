@@ -11,7 +11,7 @@ function TeamMembers() {
         </p>
       </div>
       <img src='../images/chapter-2/new-friends.jpeg' alt='new-friends' />
-      <Direction children='Next' path='/chapter2/5' />
+      <Direction children='Next' path='/chapter2/go-seller' />
     </div>
   );
 }

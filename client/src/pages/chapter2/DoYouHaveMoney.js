@@ -22,7 +22,7 @@ function DoYouHaveMoney({ data, setData }) {
       {data.money && (
         <Direction
           children='Next'
-          path={isEnoughMoney ? '/chapter2/9' : '/chapter2/10'}
+          path={isEnoughMoney ? '/chapter2/buy-your-gun' : '/chapter2/insult'}
         />
       )}
     </div>

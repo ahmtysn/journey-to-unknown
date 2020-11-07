@@ -9,7 +9,7 @@ function SelectGun() {
         There are many options. But do you have enough money.. How will you buy?
       </p>
       <img src='../images/chapter-2/weapons.jpeg' alt='weapons' />
-      <Direction children='Next' path='/chapter2/8' />
+      <Direction children='Next' path='/chapter2/do-you-have-money' />
     </div>
   );
 }

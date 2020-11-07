@@ -8,7 +8,7 @@ function MeetFather() {
         You walk in the long silent corridor to meet with godfather
       </p>
       <img src='../images/chapter-2/boss1.jpeg' alt='boss' />
-      <Direction children='Next' path='/chapter2/2' />
+      <Direction children='Next' path='/chapter2/tell-your-name' />
     </div>
   );
 }

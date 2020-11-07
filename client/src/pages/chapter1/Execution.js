@@ -9,7 +9,7 @@ function Execution() {
         he can't stand to see his mother and father.
       </p>
       <img src='../images/chapter-1/dead-family.jpeg' alt='dead-family' />
-      <Direction children='Next' path='/chapter1/3' />
+      <Direction children='Next' path='/chapter1/escape' />
     </div>
   );
 }

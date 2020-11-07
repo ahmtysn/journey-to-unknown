@@ -25,28 +25,28 @@ function Chapter2() {
         <Chapter
           chapter={2}
           info='You are lucky. The godfather invited you...'
-          path='chapter2/1'
+          path='chapter2/meet-father'
         />
       </Route>
-      <Route path='/chapter2/1' component={MeetFather} />
-      <Route path='/chapter2/2'>
+      <Route path='/chapter2/meet-father' component={MeetFather} />
+      <Route path='/chapter2/tell-your-name'>
         <TellYourName data={data} setData={setData} />
       </Route>
-      <Route path='/chapter2/3'>
+      <Route path='/chapter2/team-members'>
         <TeamMembers />
       </Route>
-      <Route path='/chapter2/4'>
+      <Route path='/chapter2/too-young'>
         <TooYoung data={data} setData={setData} />
       </Route>
-      <Route path='/chapter2/5' component={GoSeller} />
-      <Route path='/chapter2/6' component={SpeakWithSeller} />
-      <Route path='/chapter2/7' component={SelectGun} />
-      <Route path='/chapter2/8'>
+      <Route path='/chapter2/go-seller' component={GoSeller} />
+      <Route path='/chapter2/speak-with-seller' component={SpeakWithSeller} />
+      <Route path='/chapter2/select-gun' component={SelectGun} />
+      <Route path='/chapter2/do-you-have-money'>
         <DoYouHaveMoney data={data} setData={setData} />
       </Route>
-      <Route path='/chapter2/9' component={BuyYourGun} />
-      <Route path='/chapter2/10' component={Insult} />
-      <Route path='/chapter2/11' component={KillOrForgive} />
+      <Route path='/chapter2/buy-your-gun' component={BuyYourGun} />
+      <Route path='/chapter2/insult' component={Insult} />
+      <Route path='/chapter2/kill-or-forgive' component={KillOrForgive} />
     </div>
   );
 }

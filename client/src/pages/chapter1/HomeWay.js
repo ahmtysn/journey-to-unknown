@@ -9,7 +9,7 @@ function HomeWay() {
         A little boy was too happy because today is his birthday and his mother
         should have done super cakes...
       </p>
-      <Direction children='Next' path='/chapter1/2' />
+      <Direction children='Next' path='/chapter1/execution' />
     </div>
   );
 }

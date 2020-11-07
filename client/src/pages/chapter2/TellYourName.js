@@ -34,7 +34,11 @@ function TellYourName({ data, setData }) {
       {data.name && data.age && (
         <Direction
           children='Next'
-          path={data.name && isAdult ? '/chapter2/3' : '/chapter2/4'}
+          path={
+            data.name && isAdult
+              ? '/chapter2/team-members'
+              : '/chapter2/too-young'
+          }
         />
       )}
     </div>

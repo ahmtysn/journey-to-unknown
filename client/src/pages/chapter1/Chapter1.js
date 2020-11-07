@@ -11,12 +11,16 @@ function Chapter1() {
   return (
     <div>
       <Route path='/chapter1' exact>
-        <Chapter chapter={1} info='Write your story!' path='chapter1/1' />
+        <Chapter
+          chapter={1}
+          info='Write your story!'
+          path='chapter1/home-way'
+        />
       </Route>
-      <Route path='/chapter1/1' component={HomeWay} />
-      <Route path='/chapter1/2' component={Execution} />
-      <Route path='/chapter1/3' component={Escape} />
-      <Route path='/chapter1/4' component={Offer} />
+      <Route path='/chapter1/home-way' component={HomeWay} />
+      <Route path='/chapter1/execution' component={Execution} />
+      <Route path='/chapter1/escape' component={Escape} />
+      <Route path='/chapter1/offer' component={Offer} />
     </div>
   );
 }

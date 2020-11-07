@@ -8,7 +8,7 @@ function GoSeller() {
       <p className='m-left'>
         You will learn how to fight but first should buy a weapon.
       </p>
-      <Direction children='Next' path='/chapter2/6' />
+      <Direction children='Next' path='/chapter2/speak-with-seller' />
     </div>
   );
 }
