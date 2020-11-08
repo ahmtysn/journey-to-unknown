@@ -5,7 +5,8 @@ function GodFather() {
   return (
     <div className='row fullPage'>
       <p className='m-right'>
-        Artik herkesin saygi duydugu gelecegin babasisin....
+        You are the godfather of the future. The story will be told over
+        generations.....
       </p>
       <img src='../images/chapter-4/target.jpeg' alt='target' />
       <Direction children='Next' path='/chapter4/the-end' />

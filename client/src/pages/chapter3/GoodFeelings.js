@@ -5,8 +5,8 @@ import { OpenContext } from '../../components/OpenContext';
 function GoodFeelings() {
   const { open, setOpen } = useContext(OpenContext);
   return (
-    <div className='column fullPage'>
-      <p>You feel yourself free. You take your revenge. Mom sleep wel.</p>
+    <div className='column fullPage goodFeelings'>
+      <p>You feel very relaxed. Now your mother can sleep peacefully.</p>
       <Direction
         children='Next'
         path='/chapter4'

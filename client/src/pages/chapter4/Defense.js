@@ -3,8 +3,11 @@ import { Link } from 'react-router-dom';
 
 function Defense() {
   return (
-    <div className='column fullPage'>
-      <p>You have 2 options</p>
+    <div className='column fullPage options'>
+      <h2>
+        Will you give all the information about the organization and say you
+        regret it?
+      </h2>
       <div className='row m-top'>
         <div className='column'>
           <Link to='/chapter4/hard-punishment'>
@@ -14,19 +17,15 @@ function Defense() {
               alt='not-regret'
             />
           </Link>
-          <p className='m-top'>I'm not regret.I have no word to you.</p>
         </div>
         <div className='column'>
           <Link to='/chapter4/reduced-penalty'>
             <img
-              className='options-img'
+              className='options-img m-left'
               src='../images/chapter-4/regret.jpg'
               alt='regret'
             />
           </Link>
-          <p className='m-top'>
-            I'm regret.I will tell everything what I know.
-          </p>
         </div>
       </div>
     </div>

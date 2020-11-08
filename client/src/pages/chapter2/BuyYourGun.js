@@ -5,8 +5,11 @@ import { OpenContext } from '../../components/OpenContext';
 function BuyYourGun() {
   const { open, setOpen } = useContext(OpenContext);
   return (
-    <div className='column fullPage'>
-      <p>You can buy what ever you want boy!</p>
+    <div className='row fullPage'>
+      <p className='m-right'>
+        Now I have a gun... I'm more confident in myself.
+      </p>
+      <img src='../images/chapter-2/buy-gun.jpg' alt='buy-gun' />
       <Direction
         children='Next'
         path='/chapter3'

@@ -6,7 +6,8 @@ function ThinkAboutJudge() {
     <div className='row fullPage'>
       <img src='../images/chapter-4/prison3.jpeg' alt='prison' />
       <p className='m-right m-left'>
-        Now you have time to think..What will you do in judge ?
+        You have a lot of time to think in prison. Will you always stay here
+        from now on?
       </p>
       <img src='../images/chapter-4/prison1.jpeg' alt='prison' />
       <Direction children='Next' path='/chapter4/prosecution' />

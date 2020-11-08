@@ -6,7 +6,10 @@ function Escape() {
     <div className='row fullPage'>
       <img src='../images/chapter-1/escape1.jpeg' alt='escape' />
 
-      <p className='m-left m-right'>Run run and run...</p>
+      <p className='m-left m-right'>
+        At that moment you only thought of running away. You were so scared. You
+        were running from everything !
+      </p>
       <div className='column'>
         <img
           className='half-img'
@@ -19,7 +22,7 @@ function Escape() {
           alt='run-escape'
         />
       </div>
-      <Direction children='Next' path='/chapter1/offer' />
+      <Direction children='Next' path='/chapter1/sleep-street' />
     </div>
   );
 }

@@ -7,18 +7,20 @@
   color: #fff;
 }
 img {
-  width: 300px;
-  height: 400px;
+  width: 320px;
+  height: 420px;
+  border-radius: 10%;
 }
 .half-img {
-  width: 150px;
-  height: 200px;
+  width: 180px;
+  height: 220px;
   border-radius: 20%;
 }
 p {
-  width: 150px;
+  width: 180px;
   font-size: 1.2rem;
   text-align: center;
+  font-weight: bolder;
 }
 button {
   margin: 1rem;
@@ -26,6 +28,12 @@ button {
   height: 3rem;
   font-size: 1.2rem;
   font-weight: 800;
+}
+input {
+  padding: 10px;
+  font-size: large;
+  text-align: center;
+  border: none;
 }
 
 .fullPage {
@@ -66,6 +74,25 @@ button {
   background-image: url('https://i.pinimg.com/564x/15/b4/2f/15b42fdc73b5b47419245578ef00259c.jpg');
   background-size: cover;
 }
+.options {
+  background-image: url('https://akm-img-a-in.tosshub.com/indiatoday/images/story/202001/question-mark-1872665_1280.jpeg?NTImMBvMLbwWNEHaUhOGCndpiOB0704D&size=770:433');
+  background-size: cover;
+}
+
+.goodFeelings {
+  background-image: url('https://images.yourstory.com/cs/wordpress/2018/02/relax.jpg?fm=png&auto=format');
+  background-size: cover;
+  color: #2466ba;
+}
+.goodFeelings > * {
+  font-size: x-large;
+  font-weight: bolder;
+}
+.end {
+  background-image: url('https://image.freepik.com/free-vector/end-neon-signs-style-text_118419-1883.jpg');
+  background-size: cover;
+  background-position: center;
+}
 .head h1 {
   margin-bottom: 3%;
   font-size: xx-large;
@@ -84,8 +111,8 @@ button {
 }
 .options-img {
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
 }
 .direction-btn button {
   position: absolute;
@@ -112,4 +139,10 @@ button {
 .navbar a:hover {
   background: #ddd;
   color: black;
+}
+.step {
+  background-color: #fff;
+  color: #212121;
+  padding: 40px;
+  border: 2px dashed #212121;
 }

@@ -3,8 +3,10 @@ import { Route } from 'react-router-dom';
 
 import Chapter from '../../components/Chapter';
 import HomeWay from './HomeWay';
+import Killer from './Killer';
 import Execution from './Execution';
 import Escape from './Escape';
+import SleepStreet from './SleepStreet';
 import Offer from './Offer';
 
 function Chapter1() {
@@ -19,8 +21,10 @@ function Chapter1() {
         />
       </Route>
       <Route path='/chapter1/home-way' component={HomeWay} />
+      <Route path='/chapter1/killer' component={Killer} />
       <Route path='/chapter1/execution' component={Execution} />
       <Route path='/chapter1/escape' component={Escape} />
+      <Route path='/chapter1/sleep-street' component={SleepStreet} />
       <Route path='/chapter1/offer' component={Offer} />
     </div>
   );

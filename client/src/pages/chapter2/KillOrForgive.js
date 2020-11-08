@@ -5,8 +5,10 @@ import { OpenContext } from '../../components/OpenContext';
 function KillOrForgive() {
   const { open, setOpen } = useContext(OpenContext);
   return (
-    <div className='column fullPage'>
-      <p>You have 2 options</p>
+    <div className='column fullPage options'>
+      <h2>
+        You're so angry at the man's words. What are you going to do now ?
+      </h2>
       <div className='row m-top'>
         <div className='column'>
           <Link to='/chapter3'>
@@ -22,12 +24,12 @@ function KillOrForgive() {
         <div className='column'>
           <Link to='/chapter2/too-young'>
             <img
-              className='options-img'
-              src='../images/chapter-2/forgive.jpg'
+              className='options-img m-left'
+              src='../images/chapter-2/escape.jpeg'
               alt='never-mind'
             />
           </Link>
-          <p className='m-top'>Forgive Him</p>
+          <p className='m-top m-left'>Escape</p>
         </div>
       </div>
     </div>

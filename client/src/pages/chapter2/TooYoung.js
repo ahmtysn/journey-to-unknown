@@ -8,9 +8,8 @@ function TooYoung({ data, setData }) {
   return (
     <div className='row fullPage'>
       <div className='column m-right'>
-        <p>You are too young you must go home!!! and stay with your mom !!</p>
-        <p className='m-top'>
-          We don't share our life with years old babies !!!
+        <p>
+          You are a child. Come on go home. Don't linger around here too much!
         </p>
       </div>
       <img src='../images/chapter-2/bad-boys.jpeg' alt='bad-boys' />

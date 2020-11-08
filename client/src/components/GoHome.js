@@ -1,15 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Direction from '../components/Direction';
 
 function GoHome() {
   return (
     <div className='column fullPage'>
-      <h1>You are a coward...</h1>
-      <h1>You can never be a gangster...</h1>
-      <h1>GO HOME !</h1>
-      <Link to='/'>
-        <button>Try Again</button>
-      </Link>
+      <img src='/images/coward.jpg' alt='coward' />
+      <h3>You are a coward</h3>
+      <h3>GO HOME !</h3>
+      <Direction path='/' children='Try Again' />
     </div>
   );
 }

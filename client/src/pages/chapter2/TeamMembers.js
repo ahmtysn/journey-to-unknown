@@ -6,21 +6,21 @@ function TeamMembers({ data }) {
     <div className='row fullPage'>
       <div className='column m-right'>
         <p>
-          Welcome{' '}
+          Welcome
           <span style={{ fontWeight: 'bolder', fontSize: '1.6rem' }}>
-            {data.name}
+            {' '}
+            {data.name}{' '}
           </span>
-          and we will more dangerous...
-        </p>
-        <p className='m-top'>
-          You are not look like{' '}
+          your ages look younger not
           <span style={{ fontWeight: 'bolder', fontSize: '1.6rem' }}>
+            {' '}
             {data.age}
           </span>
-          , you look too young and strong
+          .
         </p>
+        <p className='m-top'>Then everyone was congratulating me!</p>
       </div>
-      <img src='../images/chapter-2/new-friends.jpeg' alt='new-friends' />
+      <img src='../images/chapter-2/welcome.jpeg' alt='welcome' />
       <Direction children='Next' path='/chapter2/go-seller' />
     </div>
   );

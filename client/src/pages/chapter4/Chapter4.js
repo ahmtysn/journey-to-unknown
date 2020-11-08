@@ -20,7 +20,7 @@ function Chapter4() {
         <Chapter
           chapter={4}
           className='chapter4 large column fullPage'
-          info='Last Part. We will see what will happen ?'
+          info='Then What ?'
           path='chapter4/arrest'
         />
       </Route>

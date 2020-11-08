@@ -6,7 +6,8 @@ function DeadEnd() {
     <div className='row fullPage'>
       <img src='../images/chapter-4/execution.jpeg' alt='execution' />
       <p className='m-left'>
-        Bir kac gun icinde odanda olu bulundun, ne yazik !!
+        But this did not please the gang. A few weeks later it was revealed that
+        you died in your ward by accident. !!
       </p>
       <Direction children='Next' path='/chapter4/the-end' />
     </div>

@@ -4,8 +4,22 @@ import Direction from '../../components/Direction';
 function Bribe() {
   return (
     <div className='row fullPage'>
-      <img src='../images/chapter-4/free.jpeg' alt='free' />
-      <p className='m-left m-right'>Paranin acamayacagi kapi yoktur.</p>
+      <div className='column'>
+        <img
+          className='half-img m-bottom'
+          src='../images/chapter-4/free.jpeg'
+          alt='free'
+        />
+        <img
+          className='half-img'
+          src='../images/chapter-4/judge.jpeg'
+          alt='judge'
+        />
+      </div>
+      <p className='m-left m-right'>
+        Your friends have not forgotten you. They came to your aid within a few
+        weeks. There is no door money cannot open...
+      </p>
       <div className='column'>
         <img
           className='half-img m-bottom'

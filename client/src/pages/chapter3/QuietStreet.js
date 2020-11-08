@@ -6,8 +6,8 @@ function QuietStreet() {
     <div className='row fullPage'>
       <img src='../images/chapter-3/quit-street.jpeg' alt='quit-street' />
       <p className='m-left'>
-        You wait to much in the quit street.But You saw them and you want to
-        revenge.
+        You started to wait in front of the place where they had fun at
+        midnight. Yes there it is! Both are just opposite.
       </p>
       <Direction children='Next' path='/chapter3/remember-mom' />
     </div>

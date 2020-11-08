@@ -6,7 +6,8 @@ function SelectGun() {
     <div className='row fullPage'>
       <img src='../images/chapter-2/guns.jpeg' alt='guns' />
       <p className='m-left m-right'>
-        There are many options. But do you have enough money.. How will you buy?
+        There are many kinds of weapons. You can buy any weapon you want. But is
+        your money enough?
       </p>
       <img src='../images/chapter-2/weapons.jpeg' alt='weapons' />
       <Direction children='Next' path='/chapter2/do-you-have-money' />

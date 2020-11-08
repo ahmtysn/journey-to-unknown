@@ -4,12 +4,13 @@ import Direction from '../../components/Direction';
 function HomeWay() {
   return (
     <div className='row fullPage'>
-      <img src='../images/chapter-1/home-way.jpg' alt='home-way' />
-      <p className='m-left'>
-        A little boy was too happy because today is his birthday and his mother
-        should have done super cakes...
+      <img src='../images/chapter-1/happy-boy.jpeg' alt='happy-boy' />
+      <p className='m-left m-right'>
+        Today is your birthday. You are going home very happy. Mom has probably
+        prepare your favorite dishes...
       </p>
-      <Direction children='Next' path='/chapter1/execution' />
+      <img src='../images/chapter-1/home-way.jpeg' alt='home-way' />
+      <Direction children='Next' path='/chapter1/killer' />
     </div>
   );
 }

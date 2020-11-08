@@ -7,8 +7,13 @@ function Offer() {
   return (
     <div className='column fullPage'>
       <div className='row'>
+        <p className='m-right'>
+          One day a strange looking man offered you to join him.
+        </p>
         <img src='../images/chapter-1/offer.png' alt='offer' />
-        <p className='m-left'>An interesting offer, Do you want to join us ?</p>
+        <p className='m-left'>
+          Maybe you should join this guy so you can avenge your mother.
+        </p>
       </div>
       <div className='row'>
         <Link to='/chapter2'>

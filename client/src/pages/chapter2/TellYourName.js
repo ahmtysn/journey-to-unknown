@@ -14,7 +14,7 @@ function TellYourName({ data, setData }) {
       <div className='row fullPage'>
         <img src='../images/chapter-2/boss2.jpeg' alt='boss' />
         <div className='column m-left'>
-          <p>Asked me my name, I feel myself horrible!</p>
+          <p>This silence is broken by his question of my name and age.</p>
           <div className='column'>
             <input
               className='m-bottom m-top'

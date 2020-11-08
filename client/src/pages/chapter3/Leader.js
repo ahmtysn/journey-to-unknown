@@ -6,9 +6,9 @@ function Leader() {
     <div className='row fullPage'>
       <img src='../images/chapter-3/leader.jpeg' alt='leader' />
       <p className='m-left m-right'>
-        You are the leader and god-father of future..
+        They call you the Boss, in the eyes of friends, you are a hero!
       </p>
-      <img src='../images/chapter-3/cigaret.jpeg' alt='cigaret' />
+      <img src='../images/chapter-3/fights.jpeg' alt='fights' />
       <Direction children='Next' path='/chapter3/lux-habits' />
     </div>
   );

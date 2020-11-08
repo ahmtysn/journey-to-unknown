@@ -3,10 +3,12 @@ import Direction from '../../components/Direction';
 
 function Insult() {
   return (
-    <div className='column fullPage'>
-      <p>You are an idiot..</p>
-      <p>you can not buy anything with this oney</p>
-      <p>he spoke too bad and he insulted you with your frineds...</p>
+    <div className='row fullPage'>
+      <img src='../images/chapter-2/insult.jpeg' alt='insult' />
+      <p className='m-left'>
+        You can't even buy a toy gun with this money, you stupid dog. You are
+        wasting my time!
+      </p>
       <Direction children='Next' path='/chapter2/kill-or-forgive' />
     </div>
   );

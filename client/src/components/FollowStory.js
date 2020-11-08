@@ -4,7 +4,9 @@ function FollowStory() {
   return (
     <div>
       <div className='column fullPage'>
-        <p>Please follow the story step by step...</p>
+        <div className='step'>
+          <p>Please follow the story step by step...</p>
+        </div>
       </div>
     </div>
   );

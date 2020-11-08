@@ -9,16 +9,24 @@ function DoYouHaveMoney({ data, setData }) {
     }
   }, [data.money]);
   return (
-    <div className='column fullPage'>
-      <p>The seller asked you?</p>
-      <p>How much money do you have ?</p>
-      <p>at least you must have 1000$</p>
-      <input
-        type='number'
-        name='money'
-        placeholder='How much do you have?'
-        onChange={e => setData({ ...data, money: e.target.value })}
+    <div className='row fullPage'>
+      <img
+        className='m-right'
+        src='../images/chapter-2/gunSeller.jpg'
+        alt='gunSeller'
       />
+      <div className='column '>
+        <p className='m-bottom'>
+          The seller said there should be at least $1000. And asked how much
+          money I have ?
+        </p>
+        <input
+          type='number'
+          name='money'
+          placeholder='How much do you have?'
+          onChange={e => setData({ ...data, money: e.target.value })}
+        />
+      </div>
       {data.money && (
         <Direction
           children='Next'

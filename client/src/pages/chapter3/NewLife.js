@@ -6,8 +6,8 @@ function NewLife() {
     <div className='row fullPage'>
       <img src='../images/chapter-3/captain.jpeg' alt='captain' />
       <p className='m-left m-right'>
-        Now you are so famous. You have different life. You forgot your previous
-        life.
+        Your reputation was spreading everywhere day by day. Your cruelty was on
+        everyone's lips.
       </p>
       <img src='../images/chapter-3/lux-auto.jpeg' alt='lux-auto' />
       <Direction children='Next' path='/chapter3/leader' />
