@@ -9,7 +9,7 @@ function GodFather() {
         generations.....
       </p>
       <img src='../images/chapter-4/target.jpeg' alt='target' />
-      <Direction children='Next' path='/chapter4/the-end' />
+      <Direction title='Next' path='/chapter4/the-end' />
     </div>
   );
 }

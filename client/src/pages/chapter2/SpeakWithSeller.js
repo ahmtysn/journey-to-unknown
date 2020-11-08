@@ -9,7 +9,7 @@ function SpeakWithSeller() {
         sensitive about money.
       </p>
       <img src='../images/chapter-2/gun-seller.jpeg' alt='gun-seller' />
-      <Direction children='Next' path='/chapter2/select-gun' />
+      <Direction title='Next' path='/chapter2/select-gun' />
     </div>
   );
 }

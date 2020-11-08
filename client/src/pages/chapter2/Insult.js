@@ -9,7 +9,7 @@ function Insult() {
         You can't even buy a toy gun with this money, you stupid dog. You are
         wasting my time!
       </p>
-      <Direction children='Next' path='/chapter2/kill-or-forgive' />
+      <Direction title='Next' path='/chapter2/kill-or-forgive' />
     </div>
   );
 }

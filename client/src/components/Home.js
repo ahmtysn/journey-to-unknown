@@ -9,7 +9,7 @@ function Home() {
     <div className='column head fullPage'>
       <h1>JOURNEY to UNKNOWN</h1>
       <Direction
-        children='Start'
+        title='Start'
         path='/chapter1'
         onClick={() => setOpen({ ...open, isOpenC1: true })}
       />

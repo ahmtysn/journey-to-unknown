@@ -1,8 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Direction from '../../components/Direction';
 
 function TellYourName({ data, setData }) {
   const [isAdult, setIsAdult] = useState(false);
+  const nameInputRef = useRef(null);
+
+  useEffect(() => {
+    nameInputRef.current.focus();
+  }, []);
+
   useEffect(() => {
     if (parseFloat(data.age) >= 18) {
       setIsAdult(true);
@@ -10,7 +16,7 @@ function TellYourName({ data, setData }) {
   }, [data.age]);
 
   return (
-    <div>
+    <form onSubmit={e => e.preventDefault()}>
       <div className='row fullPage'>
         <img src='../images/chapter-2/boss2.jpeg' alt='boss' />
         <div className='column m-left'>
@@ -21,6 +27,7 @@ function TellYourName({ data, setData }) {
               placeholder='Name'
               type='text'
               onChange={e => setData({ ...data, name: e.target.value })}
+              ref={nameInputRef}
             />
             <input
               type='number'
@@ -32,7 +39,9 @@ function TellYourName({ data, setData }) {
         </div>
         {data.name && data.age && (
           <Direction
-            children='Next'
+            title='Next'
+            autoFocus={false}
+            type='submit'
             path={
               data.name && isAdult
                 ? '/chapter2/team-members'
@@ -41,7 +50,7 @@ function TellYourName({ data, setData }) {
           />
         )}
       </div>
-    </div>
+    </form>
   );
 }
 

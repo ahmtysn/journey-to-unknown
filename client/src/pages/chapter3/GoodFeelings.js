@@ -8,7 +8,7 @@ function GoodFeelings() {
     <div className='column fullPage goodFeelings'>
       <p>You feel very relaxed. Now your mother can sleep peacefully.</p>
       <Direction
-        children='Next'
+        title='Next'
         path='/chapter4'
         onClick={() => setOpen({ ...open, isOpenC4: true })}
       />

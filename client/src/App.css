@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .App {
   background-color: #212121;
@@ -21,13 +22,6 @@ p {
   font-size: 1.2rem;
   text-align: center;
   font-weight: bolder;
-}
-button {
-  margin: 1rem;
-  width: 10rem;
-  height: 3rem;
-  font-size: 1.2rem;
-  font-weight: 800;
 }
 input {
   padding: 10px;
@@ -114,9 +108,29 @@ input {
   width: 180px;
   height: 180px;
 }
-.direction-btn button {
+.direction-btn a {
+  margin: 1rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-decoration: none;
+  color: black;
+  background: white;
+  text-align: center;
+  padding: 1rem 3rem;
+}
+.direction-btn a > button {
+  margin: 1rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-decoration: none;
+  color: black;
+  background: white;
+  text-align: center;
+  border: none;
+}
+.position-bottom-right {
   position: absolute;
-  top: 85%;
+  bottom: 2rem;
   right: 0;
 }
 .navbar {

@@ -9,7 +9,7 @@ function QuietStreet() {
         You started to wait in front of the place where they had fun at
         midnight. Yes there it is! Both are just opposite.
       </p>
-      <Direction children='Next' path='/chapter3/remember-mom' />
+      <Direction title='Next' path='/chapter3/remember-mom' />
     </div>
   );
 }

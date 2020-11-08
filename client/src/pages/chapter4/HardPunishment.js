@@ -9,7 +9,7 @@ function HardPunishment() {
         pleased the gang.
       </p>
       <img src='../images/chapter-4/judge1.jpeg' alt='judge' />
-      <Direction children='Next' path='/chapter4/king-of-jail' />
+      <Direction title='Next' path='/chapter4/king-of-jail' />
     </div>
   );
 }

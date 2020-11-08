@@ -9,7 +9,7 @@ function KingOfJail() {
         You are greeted like kings in prison. Everyone was shouting your name as
         a hero.
       </p>
-      <Direction children='Next' path='/chapter4/bribe' />
+      <Direction title='Next' path='/chapter4/bribe' />
     </div>
   );
 }

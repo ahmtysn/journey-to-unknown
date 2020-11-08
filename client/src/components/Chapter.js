@@ -6,7 +6,7 @@ function Chapter({ chapter, info, path, className }) {
     <div className={className}>
       <h1>Chapter - {chapter}</h1>
       <h4>{info}</h4>
-      <Direction children='Next' path={path} />
+      <Direction title='Next' path={path} />
     </div>
   );
 }

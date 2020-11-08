@@ -9,7 +9,7 @@ function DeadEnd() {
         But this did not please the gang. A few weeks later it was revealed that
         you died in your ward by accident. !!
       </p>
-      <Direction children='Next' path='/chapter4/the-end' />
+      <Direction title='Next' path='/chapter4/the-end' />
     </div>
   );
 }

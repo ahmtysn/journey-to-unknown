@@ -9,7 +9,7 @@ function ReducedPenalty() {
         sentence dropped to 10 years.
       </p>
       <img src='../images/chapter-4/query.jpeg' alt='query' />
-      <Direction children='Next' path='/chapter4/dead-end' />
+      <Direction title='Next' path='/chapter4/dead-end' />
     </div>
   );
 }

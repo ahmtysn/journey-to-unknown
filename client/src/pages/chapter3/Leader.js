@@ -9,7 +9,7 @@ function Leader() {
         They call you the Boss, in the eyes of friends, you are a hero!
       </p>
       <img src='../images/chapter-3/fights.jpeg' alt='fights' />
-      <Direction children='Next' path='/chapter3/lux-habits' />
+      <Direction title='Next' path='/chapter3/lux-habits' />
     </div>
   );
 }

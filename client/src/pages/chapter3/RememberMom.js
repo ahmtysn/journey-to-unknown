@@ -21,7 +21,7 @@ function RememberMom() {
         with your mom? What will you do now?
       </p>
       <img src='../images/chapter-3/patrol.jpeg' alt='patrol' />
-      <Direction children='Next' path='/chapter3/revenge' />
+      <Direction title='Next' path='/chapter3/revenge' />
     </div>
   );
 }

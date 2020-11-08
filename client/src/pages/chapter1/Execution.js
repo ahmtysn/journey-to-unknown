@@ -9,7 +9,7 @@ function Execution() {
         Taking blood everywhere !
       </p>
       <img src='../images/chapter-1/dead-family.jpeg' alt='dead-family' />
-      <Direction children='Next' path='/chapter1/escape' />
+      <Direction title='Next' path='/chapter1/escape' />
     </div>
   );
 }

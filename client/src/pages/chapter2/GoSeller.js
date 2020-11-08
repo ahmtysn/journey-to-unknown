@@ -8,7 +8,7 @@ function GoSeller() {
       <p className='m-left'>
         You were learning how to be a gangster. First of all, you needed a gun.
       </p>
-      <Direction children='Next' path='/chapter2/speak-with-seller' />
+      <Direction title='Next' path='/chapter2/speak-with-seller' />
     </div>
   );
 }

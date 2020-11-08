@@ -8,7 +8,7 @@ function SleepStreet() {
         You stayed in the streets for days. You are hungry and thirsty.
         Sometimes you had to steal.
       </p>
-      <Direction children='Next' path='/chapter1/offer' />
+      <Direction title='Next' path='/chapter1/offer' />
     </div>
   );
 }

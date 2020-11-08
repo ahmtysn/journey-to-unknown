@@ -10,7 +10,7 @@ function ThinkAboutJudge() {
         from now on?
       </p>
       <img src='../images/chapter-4/prison1.jpeg' alt='prison' />
-      <Direction children='Next' path='/chapter4/prosecution' />
+      <Direction title='Next' path='/chapter4/prosecution' />
     </div>
   );
 }

@@ -22,7 +22,7 @@ function Escape() {
           alt='run-escape'
         />
       </div>
-      <Direction children='Next' path='/chapter1/sleep-street' />
+      <Direction title='Next' path='/chapter1/sleep-street' />
     </div>
   );
 }

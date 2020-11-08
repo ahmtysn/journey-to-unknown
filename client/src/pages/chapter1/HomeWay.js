@@ -10,7 +10,7 @@ function HomeWay() {
         probably prepare your favorite dishes...
       </p>
       <img src='../images/chapter-1/home-way.jpeg' alt='home-way' />
-      <Direction children='Next' path='/chapter1/killer' />
+      <Direction title='Next' path='/chapter1/killer' />
     </div>
   );
 }

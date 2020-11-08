@@ -10,7 +10,7 @@ function SelectGun() {
         your money enough?
       </p>
       <img src='../images/chapter-2/weapons.jpeg' alt='weapons' />
-      <Direction children='Next' path='/chapter2/do-you-have-money' />
+      <Direction title='Next' path='/chapter2/do-you-have-money' />
     </div>
   );
 }

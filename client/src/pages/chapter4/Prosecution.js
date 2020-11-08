@@ -9,7 +9,7 @@ function Prosecution() {
         are a member.
       </p>
       <img src='../images/chapter-4/questioning.jpeg' alt='questioning' />
-      <Direction children='Next' path='/chapter4/defence' />
+      <Direction title='Next' path='/chapter4/defence' />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import Direction from '../../components/Direction';
 function TheEnd() {
   return (
     <div className='column fullPage end'>
-      <Direction path='/' children='Try Again' />
+      <Direction path='/' title='Try Again' />
     </div>
   );
 }

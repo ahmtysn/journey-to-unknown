@@ -32,7 +32,7 @@ function Bribe() {
           alt='bribe'
         />
       </div>
-      <Direction children='Next' path='/chapter4/god-father' />
+      <Direction title='Next' path='/chapter4/god-father' />
     </div>
   );
 }

@@ -21,7 +21,7 @@ function Intelligence() {
           alt='enemy'
         />
       </div>
-      <Direction children='Next' path='/chapter3/quiet-street' />
+      <Direction title='Next' path='/chapter3/quiet-street' />
     </div>
   );
 }

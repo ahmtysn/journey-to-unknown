@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { OpenContext } from '../../components/OpenContext';
+import Direction from '../../components/Direction';
 
 function Offer() {
   const { open, setOpen } = useContext(OpenContext);
@@ -16,14 +17,13 @@ function Offer() {
         </p>
       </div>
       <div className='row'>
-        <Link to='/chapter2'>
-          <button onClick={() => setOpen({ ...open, isOpenC2: true })}>
-            YES
-          </button>
-        </Link>
-        <Link to='/go-home'>
-          <button>NO</button>
-        </Link>
+        <Direction
+          path='/chapter2'
+          title='YES'
+          bottomRight={false}
+          onClick={() => setOpen({ ...open, isOpenC2: true })}
+        />
+        <Direction path='/go-home' title='NO' bottomRight={false} />
       </div>
     </div>
   );

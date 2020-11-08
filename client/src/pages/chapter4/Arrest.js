@@ -8,7 +8,7 @@ function Arrest() {
         You are quickly taken into custody by the police officers.
       </p>
       <img src='../images/chapter-4/arrest.jpeg' alt='arrest' />
-      <Direction children='Next' path='/chapter4/think-about-judge' />
+      <Direction title='Next' path='/chapter4/think-about-judge' />
     </div>
   );
 }

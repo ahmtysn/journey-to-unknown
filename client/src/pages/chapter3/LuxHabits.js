@@ -9,7 +9,7 @@ function LuxHabits() {
         By the way, you also have various luxury habits.
       </p>
       <img src='../images/chapter-3/gambling.jpeg' alt='gambling' />
-      <Direction children='Next' path='/chapter3/intelligence' />
+      <Direction title='Next' path='/chapter3/intelligence' />
     </div>
   );
 }

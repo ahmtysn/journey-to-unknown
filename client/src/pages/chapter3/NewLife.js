@@ -10,7 +10,7 @@ function NewLife() {
         everyone's lips.
       </p>
       <img src='../images/chapter-3/lux-auto.jpeg' alt='lux-auto' />
-      <Direction children='Next' path='/chapter3/leader' />
+      <Direction title='Next' path='/chapter3/leader' />
     </div>
   );
 }

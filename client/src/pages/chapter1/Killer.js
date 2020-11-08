@@ -8,7 +8,7 @@ function Killer() {
         Several armed men are waiting outside of your house. You wonder what
         happened inside? Is your mother okay?
       </p>
-      <Direction children='Next' path='/chapter1/execution' />
+      <Direction title='Next' path='/chapter1/execution' />
     </div>
   );
 }

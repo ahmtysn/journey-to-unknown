@@ -11,7 +11,7 @@ function BuyYourGun() {
       </p>
       <img src='../images/chapter-2/buy-gun.jpg' alt='buy-gun' />
       <Direction
-        children='Next'
+        title='Next'
         path='/chapter3'
         onClick={() => setOpen({ ...open, isOpenC3: true })}
       />

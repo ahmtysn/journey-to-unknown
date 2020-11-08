@@ -23,7 +23,7 @@ function TeamMembers({ data }) {
         <p className='m-top'>Then everyone was congratulating me!</p>
       </div>
       <img src='../images/chapter-2/welcome.jpeg' alt='welcome' />
-      <Direction children='Next' path='/chapter2/go-seller' />
+      <Direction title='Next' path='/chapter2/go-seller' />
     </div>
   );
 }
