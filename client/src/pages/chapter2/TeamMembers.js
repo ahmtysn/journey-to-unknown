@@ -11,12 +11,14 @@ function TeamMembers({ data }) {
             {' '}
             {data.name}{' '}
           </span>
-          your ages look younger not
+          your ages look younger
+        </p>
+        <p>
+          Not
           <span style={{ fontWeight: 'bolder', fontSize: '1.6rem' }}>
             {' '}
             {data.age}
           </span>
-          .
         </p>
         <p className='m-top'>Then everyone was congratulating me!</p>
       </div>

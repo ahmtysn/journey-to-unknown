@@ -51,36 +51,36 @@ input {
   align-items: center;
 }
 .head {
-  background-image: url('https://images.pexels.com/photos/1299417/pexels-photo-1299417.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: url(bg-images/home.jpeg);
 }
 .large {
   font-size: x-large;
   font-weight: 900;
 }
 .chapter1 {
-  background-image: url('https://images.pexels.com/photos/64699/pexels-photo-64699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: url(bg-images/chapter1.jpeg);
   background-size: cover;
 }
 
 .chapter2 {
-  background-image: url('https://images.pexels.com/photos/333850/pexels-photo-333850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: url(bg-images/chapter2.jpeg);
   background-size: cover;
 }
 .chapter3 {
-  background-image: url('https://i.pinimg.com/564x/61/c5/e9/61c5e9a78f4e77b33dce0993cfeaefa8.jpg');
+  background-image: url(bg-images/chapter3.jpeg);
   background-size: cover;
 }
 .chapter4 {
-  background-image: url('https://i.pinimg.com/564x/15/b4/2f/15b42fdc73b5b47419245578ef00259c.jpg');
+  background-image: url(bg-images/chapter4.jpeg);
   background-size: cover;
 }
 .options {
-  background-image: url('https://akm-img-a-in.tosshub.com/indiatoday/images/story/202001/question-mark-1872665_1280.jpeg?NTImMBvMLbwWNEHaUhOGCndpiOB0704D&size=770:433');
+  background-image: url(bg-images/options.jpeg);
   background-size: cover;
 }
 
 .goodFeelings {
-  background-image: url('https://images.yourstory.com/cs/wordpress/2018/02/relax.jpg?fm=png&auto=format');
+  background-image: url(bg-images/good-feelings.jpeg);
   background-size: cover;
   color: #2466ba;
 }
@@ -89,7 +89,7 @@ input {
   font-weight: bolder;
 }
 .end {
-  background-image: url('https://image.freepik.com/free-vector/end-neon-signs-style-text_118419-1883.jpg');
+  background-image: url(bg-images/end.jpeg);
   background-size: cover;
   background-position: center;
 }
@@ -125,7 +125,6 @@ input {
   position: fixed;
   top: 25%;
   left: 0;
-  width: 5%;
 }
 
 .navbar a {
@@ -145,4 +144,49 @@ input {
   color: #212121;
   padding: 40px;
   border: 2px dashed #212121;
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+  img {
+    width: 160px;
+    height: 200px;
+  }
+  p {
+    font-size: medium;
+  }
+  .navbar a {
+    display: inline-block;
+  }
+  .navbar {
+    top: 0;
+    left: 4%;
+  }
+  .fullPage {
+    text-align: center;
+  }
+  .m-right,
+  .m-left {
+    margin: 10px 0;
+  }
+  .half-img {
+    width: 100px;
+    height: 120px;
+    margin: 10px 10px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  img {
+    width: 220px;
+    height: 260px;
+  }
+  .half-img {
+    width: 140px;
+    height: 180px;
+  }
+  p {
+    font-size: medium;
+  }
 }
