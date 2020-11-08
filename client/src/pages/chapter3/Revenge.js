@@ -17,11 +17,11 @@ function Revenge() {
           <p className='m-top'>Kill Them</p>
         </div>
         <div className='column'>
-          <Link to='/chapter3'>
+          <Link to='/go-home'>
             <img
               className='options-img m-left'
               src='../images/chapter-3/escape.jpeg'
-              alt='never-mind'
+              alt='escape'
             />
           </Link>
           <p className='m-top m-left'>Escape</p>

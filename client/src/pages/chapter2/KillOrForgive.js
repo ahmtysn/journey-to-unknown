@@ -22,7 +22,7 @@ function KillOrForgive() {
           <p className='m-top'>Kill Him</p>
         </div>
         <div className='column'>
-          <Link to='/chapter2/too-young'>
+          <Link to='/go-home'>
             <img
               className='options-img m-left'
               src='../images/chapter-2/escape.jpeg'

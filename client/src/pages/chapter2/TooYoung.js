@@ -13,7 +13,11 @@ function TooYoung({ data, setData }) {
         </p>
       </div>
       <img src='../images/chapter-2/bad-boys.jpeg' alt='bad-boys' />
-      <Direction onClick={clearData} children='Try Again' path='/chapter2' />
+      <Direction
+        onClick={clearData}
+        children='Try Again'
+        path='/chapter2/tell-your-name'
+      />
     </div>
   );
 }
