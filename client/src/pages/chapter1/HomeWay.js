@@ -6,8 +6,8 @@ function HomeWay() {
     <div className='row fullPage'>
       <img src='../images/chapter-1/happy-boy.jpeg' alt='happy-boy' />
       <p className='m-left m-right'>
-        Today is your birthday. You are going home very happy. Mom has probably
-        prepare your favorite dishes...
+        Today is your birthday. You are going to home very happy. Mom has
+        probably prepare your favorite dishes...
       </p>
       <img src='../images/chapter-1/home-way.jpeg' alt='home-way' />
       <Direction children='Next' path='/chapter1/killer' />

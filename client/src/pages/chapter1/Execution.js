@@ -5,8 +5,8 @@ function Execution() {
   return (
     <div className='row fullPage'>
       <p className='m-right'>
-        You couldn't believe what I saw. Your mother and father were murdered.
-        Taking blood everywhere
+        You couldn't believe what you saw. Your mother and father were murdered.
+        Taking blood everywhere !
       </p>
       <img src='../images/chapter-1/dead-family.jpeg' alt='dead-family' />
       <Direction children='Next' path='/chapter1/escape' />

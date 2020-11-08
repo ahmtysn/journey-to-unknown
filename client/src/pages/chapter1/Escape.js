@@ -7,8 +7,8 @@ function Escape() {
       <img src='../images/chapter-1/escape1.jpeg' alt='escape' />
 
       <p className='m-left m-right'>
-        At that moment you only thought of running away. You were so scared. You
-        were running from everything !
+        At that moment you only thought of running away. You are so scared. You
+        are running from everything !
       </p>
       <div className='column'>
         <img
