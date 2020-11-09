@@ -8,17 +8,10 @@
   background-color: #212121;
   color: #fff;
 }
-
-.delete-icon {
-  margin-right: 1rem;
-  font-size: larger;
-}
-
 .form {
   background-color: #3b5249;
   min-height: 100vh;
 }
-
 .comment-header {
   text-align: center;
   padding: 2rem;
@@ -38,6 +31,7 @@
   resize: none;
   background-color: #a4b494;
   color: #065446;
+  text-align: center;
 }
 .comment-btn {
   background-color: #333;
@@ -76,7 +70,7 @@
   align-self: flex-end;
 }
 
-*/ img {
+img {
   width: 320px;
   height: 420px;
   border-radius: 10%;
@@ -223,6 +217,9 @@ input {
 .navbar a:hover {
   background: #ddd;
   color: black;
+}
+.hidden {
+  display: none;
 }
 .step {
   background-color: #fff;
