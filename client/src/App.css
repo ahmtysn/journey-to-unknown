@@ -37,28 +37,33 @@
   height: 15vh;
   resize: none;
 }
-.comments {
-  flex: auto;
-  margin-left: 4rem;
-}
-.comment {
-  background-color: #e79e4f;
-  color: #321f28;
-  border-radius: 3rem;
-  margin: 1rem;
-  padding: 2px;
-}
-.comment > * {
-  margin: 1rem;
-}
-
-.comment-text {
+.comment-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  padding: 2rem;
+  margin-left: 3rem;
+  width: 60%;
+  margin: auto;
 }
-.comment-text :first-child {
-  align-self: center;
+.comment {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-bottom: 2px solid #333;
+  margin: 2px;
+  border-radius: 2rem 1rem;
+}
+.comment:nth-child(odd) {
+  background-color: yellow;
+}
+.comment:nth-child(even) {
+  background-color: tomato;
+}
+.delete-text {
+  display: flex;
+}
+.comment-time {
+  align-self: flex-end;
 }
 
 */ img {
