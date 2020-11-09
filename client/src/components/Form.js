@@ -5,11 +5,11 @@ import Comment from './Comment';
 
 function Form() {
   const [comments, setComments] = useState([]);
-  const endPoint = 'http://localhost:5000/';
+  const ENDPOINT = 'https://interactive-mafia-story.herokuapp.com/';
 
   useEffect(() => {
     const getAllComments = async () => {
-      const response = await axios.get(endPoint);
+      const response = await axios.get(ENDPOINT);
       const comments = response.data;
       setComments(comments);
       console.log({ comments });
@@ -24,14 +24,14 @@ function Form() {
     // send data to backend
     const {
       data: { comment: newComment },
-    } = await axios.post(endPoint, { text: comment.text });
+    } = await axios.post(ENDPOINT, { text: comment.text });
     // update list
     setComments(existComment => [newComment, ...existComment]);
   };
 
   const removeComment = async id => {
     // delete from the backend
-    await axios.delete(endPoint + id);
+    await axios.delete(ENDPOINT + id);
     setComments(comments.filter(comment => comment.id !== id));
   };
 

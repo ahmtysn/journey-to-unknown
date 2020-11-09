@@ -1,12 +1,12 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 const connectDB = require('./util.js/connectDB');
-const enableCORS = require('./util.js/enableCORS');
 const commentRouter = require('./routes/commentRouter.js');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(enableCORS);
+app.use(cors());
 
 app.use('/', commentRouter);
 
