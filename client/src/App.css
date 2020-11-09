@@ -183,6 +183,9 @@ input {
   background: #ddd;
   color: black;
 }
+.hidden {
+  display: none;
+}
 .step {
   background-color: #fff;
   color: #212121;

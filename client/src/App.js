@@ -10,7 +10,7 @@ import Chapter2 from './pages/chapter2/Chapter2';
 import Chapter3 from './pages/chapter3/Chapter3';
 import Chapter4 from './pages/chapter4/Chapter4';
 import FollowStory from './components/FollowStory';
-import Form from './components/Form.js';
+import Form from './components/comments/Form';
 import GoHome from './components/GoHome';
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
     isOpenC2: false,
     isOpenC3: false,
     isOpenC4: false,
+    closeNav: false,
   });
   const { isOpenC1, isOpenC2, isOpenC3, isOpenC4 } = open;
   return (

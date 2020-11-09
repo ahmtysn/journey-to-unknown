@@ -16,8 +16,14 @@ function NavBar() {
       isOpenC4: false,
     });
   };
+
+  const hideNavBar = () => {
+    setOpen({ ...open, closeNav: true });
+  };
+  const { closeNav } = open;
+
   return (
-    <div className='navbar'>
+    <div className={closeNav ? 'hidden' : 'navbar'}>
       <Link to='/'>
         <BsHouseDoor />
       </Link>
@@ -29,7 +35,7 @@ function NavBar() {
         <IoMdRefresh />
       </Link>
 
-      <Link to='/form'>
+      <Link to='/form' onClick={hideNavBar}>
         <FaRegCommentDots />
       </Link>
     </div>
