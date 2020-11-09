@@ -28,10 +28,10 @@ function App() {
           <NavBar />
           <Switch>
             <Route path='/' exact component={Home} />
-            {isOpenC1 && <Route path='/chapter1' component={Chapter1} />}
-            {isOpenC2 && <Route path='/chapter2' component={Chapter2} />}
-            {isOpenC3 && <Route path='/chapter3' component={Chapter3} />}
-            {isOpenC4 && <Route path='/chapter4' component={Chapter4} />}
+            <Route path='/chapter1' component={Chapter1} />
+            <Route path='/chapter2' component={Chapter2} />
+            <Route path='/chapter3' component={Chapter3} />
+            <Route path='/chapter4' component={Chapter4} />
             <Route path='/form' component={Form} />
             <Route path='/go-home' component={GoHome} />
             <Route path='/*' component={FollowStory} />

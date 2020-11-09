@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Goldman', cursive;
 }
 .App {
   background-color: #212121;
@@ -105,10 +106,19 @@ input {
 }
 .options-img {
   border-radius: 50%;
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
+}
+.yes-no-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }
 .direction-btn a {
+  position: absolute;
+  width: 12rem;
+  bottom: 2rem;
+  right: 0;
   margin: 1rem;
   font-size: 1.2rem;
   font-weight: 800;
@@ -119,20 +129,12 @@ input {
   padding: 1rem 3rem;
 }
 .direction-btn a > button {
-  margin: 1rem;
   font-size: 1.2rem;
-  font-weight: 800;
-  text-decoration: none;
-  color: black;
-  background: white;
+  font-weight: 600;
   text-align: center;
   border: none;
 }
-.position-bottom-right {
-  position: absolute;
-  bottom: 2rem;
-  right: 0;
-}
+
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -154,7 +156,6 @@ input {
   background: #ddd;
   color: black;
 }
-
 .step {
   background-color: #fff;
   color: #212121;

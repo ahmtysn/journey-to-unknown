@@ -1,14 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
-function Direction({
-  title,
-  path,
-  onClick,
-  bottomRight = true,
-  autoFocus = true,
-  type = '',
-}) {
+function Direction({ title, path, onClick, autoFocus = true, type = '' }) {
   const buttonRef = useRef(null);
 
   useEffect(() => {
@@ -16,9 +9,7 @@ function Direction({
   }, []);
 
   return (
-    <div
-      className={`direction-btn ${bottomRight ? 'position-bottom-right' : ''}`}
-    >
+    <div className='direction-btn'>
       <Link type='submit' to={path} onClick={onClick} ref={buttonRef}>
         {type ? <button type={type}>{title}</button> : title}
       </Link>
