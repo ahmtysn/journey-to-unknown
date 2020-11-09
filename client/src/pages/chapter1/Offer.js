@@ -13,7 +13,7 @@ function Offer() {
         </p>
         <img src='../images/chapter-1/offer.png' alt='offer' />
         <p className='m-left'>
-          Maybe you should join this guy so you can avenge your mother.
+          Maybe you should join this man to avenge your mother.
         </p>
       </div>
       <div className='row'>

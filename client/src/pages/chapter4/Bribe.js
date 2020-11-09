@@ -18,7 +18,7 @@ function Bribe() {
       </div>
       <p className='m-left m-right'>
         Your friends have not forgotten you. They came to your aid within a few
-        weeks. There is no door money cannot open...
+        weeks. There is no door that money cannot open...
       </p>
       <div className='column'>
         <img

@@ -7,7 +7,7 @@ function Intelligence() {
       <img src='../images/chapter-3/motor.png' alt='motor' />
       <p className=' m-left m-right'>
         Finally you learned the location of the Jack brothers who killed your
-        mother and father with the power you got.
+        mom and dad with the power you got.
       </p>
       <div className='column'>
         <img

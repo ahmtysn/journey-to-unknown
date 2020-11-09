@@ -17,7 +17,7 @@ function Chapter3() {
         <Chapter
           chapter={3}
           className='chapter3 large column fullPage'
-          info='You are going to be good leader and getting new habits...'
+          info='Famous leader and getting new habits...'
           path='chapter3/new-life'
         />
       </Route>

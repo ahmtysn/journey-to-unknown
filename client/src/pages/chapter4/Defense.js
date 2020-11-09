@@ -5,8 +5,7 @@ function Defense() {
   return (
     <div className='column fullPage options'>
       <h2>
-        Will you give all the information about the organization and say you
-        regret it?
+        Will you give all information about the gang and say you regret it?
       </h2>
       <div className='row m-top'>
         <div className='column'>

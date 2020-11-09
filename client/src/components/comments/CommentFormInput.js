@@ -14,16 +14,14 @@ function CommentFormInput({ addComment }) {
   return (
     <div>
       <form onSubmit={handleSubmit} className='comment-form'>
-        <textarea
-          className='text-area'
+        <input
+          className='comment-input'
           onChange={e => setInput(e.target.value)}
           placeholder='What do you think about story ?'
           value={input}
-          cols='10'
-          rows='20'
-        ></textarea>
+        />
         <button className='comment-btn' type='submit'>
-          Add Comment
+          Comment
         </button>
       </form>
     </div>

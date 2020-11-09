@@ -11,16 +11,13 @@ function TeamMembers({ data }) {
             {' '}
             {data.name}{' '}
           </span>
-          your ages look younger
-        </p>
-        <p>
-          Not
+          you look younger than
           <span style={{ fontWeight: 'bolder', fontSize: '1.6rem' }}>
             {' '}
             {data.age}
           </span>
         </p>
-        <p className='m-top'>Then everyone was congratulating me!</p>
+        <p className='m-top'>Then everyone started to congratulate you!</p>
       </div>
       <img src='../images/chapter-2/welcome.jpeg' alt='welcome' />
       <Direction title='Next' path='/chapter2/go-seller' />

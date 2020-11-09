@@ -5,8 +5,8 @@ function Prosecution() {
   return (
     <div className='row fullPage'>
       <p className='m-right'>
-        In court judge asks too difficult questions about the gang of which you
-        are a member.
+        At court, the judge asks very difficult questions about the gang you are
+        a member of.
       </p>
       <img src='../images/chapter-4/questioning.jpeg' alt='questioning' />
       <Direction title='Next' path='/chapter4/defence' />

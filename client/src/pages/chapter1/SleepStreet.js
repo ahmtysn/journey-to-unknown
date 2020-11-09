@@ -5,7 +5,7 @@ function SleepStreet() {
     <div className='row fullPage'>
       <img src='../images/chapter-1/sleep-street.jpeg' alt='sleep-street' />
       <p className='m-left'>
-        You stayed in the streets for days. You are hungry and thirsty.
+        You stayed in the streets for weeks. You are hungry and thirsty.
         Sometimes you had to steal.
       </p>
       <Direction title='Next' path='/chapter1/offer' />

@@ -17,8 +17,8 @@ function RememberMom() {
         />
       </div>
       <p className=' m-left m-right'>
-        The damn police patrol car was coming. You remembered the happy days
-        with your mom? What will you do now?
+        The damn police patrol car was coming. You also remembered the happy
+        memories with your mom. What will you do now?
       </p>
       <img src='../images/chapter-3/patrol.jpeg' alt='patrol' />
       <Direction title='Next' path='/chapter3/revenge' />
