@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useContext } from 'react';
 import axios from 'axios';
+import CommentHeader from './CommentHeader';
 import CommentFormInput from './CommentFormInput';
 import Comment from './Comment';
 import { OpenContext } from '../OpenContext';
@@ -40,13 +41,16 @@ function Form() {
 
   return (
     <div className='form'>
-      <CommentFormInput addComment={addComment} />
-      <Comment comments={comments} removeComment={removeComment} />
-      <Direction
-        path='/'
-        title='Home'
-        onClick={() => setOpen({ ...open, closeNav: false })}
-      />
+      <CommentHeader />
+      <div className='row'>
+        <CommentFormInput addComment={addComment} />
+        <Comment comments={comments} removeComment={removeComment} />
+        <Direction
+          path='/'
+          title='Home'
+          onClick={() => setOpen({ ...open, closeNav: false })}
+        />
+      </div>
     </div>
   );
 }

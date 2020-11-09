@@ -3,13 +3,8 @@ import React, { useState } from 'react';
 function CommentFormInput({ addComment }) {
   const [input, setInput] = useState('');
 
-  const handleChange = e => {
-    setInput(e.target.value);
-  };
-
   const handleSubmit = e => {
     e.preventDefault();
-
     addComment({
       text: input,
     });
@@ -17,18 +12,18 @@ function CommentFormInput({ addComment }) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input
-        placeholder='What do you think about story ?'
-        value={input}
-        onChange={handleChange}
-        name='text'
-        className='comment-input'
-      />
-      <button onClick={handleSubmit} className='comment-btn'>
-        Add Comment
-      </button>
-    </form>
+    <div>
+      <form onSubmit={handleSubmit} className='comment-form'>
+        <textarea
+          onChange={e => setInput(e.target.value)}
+          placeholder='What do you think about story ?'
+          value={input}
+          cols='30'
+          rows='20'
+        ></textarea>
+        <button onClick={handleSubmit}>Add Comment</button>
+      </form>
+    </div>
   );
 }
 

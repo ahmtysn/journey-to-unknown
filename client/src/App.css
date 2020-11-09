@@ -8,34 +8,49 @@
   background-color: #212121;
   color: #fff;
 }
+/* tmm */
+.delete-icon {
+  margin-right: 1rem;
+  color: red;
+}
+/* tmm */
 .form {
   background-color: #212121;
   min-height: 100vh;
 }
-.delete-icon {
-  margin-right: 1rem;
+/* tmm */
+.comment-header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #af6b58;
+  color: #f2efea;
+}
+/* tmm */
+
+.comment-form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-top: 3rem;
+  border-right: 2px solid green;
+  padding: 2rem;
+  margin-left: 1rem;
+}
+.comments {
+  flex: auto;
+  margin-left: 4rem;
 }
 .comment {
-  margin: 10px 0 10px 60px;
   display: flex;
-  align-items: center;
+}
+.comment > * {
+  margin: 1rem;
 }
 .comment-time {
   text-align: end;
   font-size: small;
 }
-.comment-input {
-  width: 88vw;
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-}
-.comment-btn {
-  width: 10.8vw;
-  padding: 1.5rem;
-  background-color: fff;
-  color: #212121;
-}
-img {
+*/ img {
   width: 320px;
   height: 420px;
   border-radius: 10%;
