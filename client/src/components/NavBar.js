@@ -6,7 +6,7 @@ import { IoMdRefresh } from 'react-icons/io';
 import { FaRegCommentDots } from 'react-icons/fa';
 
 function NavBar() {
-  const { open, setOpen } = useContext(OpenContext);
+  const { setOpen } = useContext(OpenContext);
 
   const resetStory = () => {
     setOpen({
@@ -17,13 +17,8 @@ function NavBar() {
     });
   };
 
-  const hideNavBar = () => {
-    setOpen({ ...open, closeNav: true });
-  };
-  const { closeNav } = open;
-
   return (
-    <div className={closeNav ? 'hidden' : 'navbar'}>
+    <div className='navbar'>
       <Link to='/'>
         <BsHouseDoor />
       </Link>
@@ -35,7 +30,7 @@ function NavBar() {
         <IoMdRefresh />
       </Link>
 
-      <Link to='/form' onClick={hideNavBar}>
+      <Link to='/form'>
         <FaRegCommentDots />
       </Link>
     </div>

@@ -15,10 +15,11 @@ function CommentFormInput({ addComment }) {
     <div>
       <form onSubmit={handleSubmit} className='comment-form'>
         <textarea
+          className='text-area'
           onChange={e => setInput(e.target.value)}
           placeholder='What do you think about story ?'
           value={input}
-          cols='30'
+          cols='10'
           rows='20'
         ></textarea>
         <button onClick={handleSubmit}>Add Comment</button>

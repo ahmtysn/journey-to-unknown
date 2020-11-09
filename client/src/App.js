@@ -19,7 +19,6 @@ function App() {
     isOpenC2: false,
     isOpenC3: false,
     isOpenC4: false,
-    closeNav: false,
   });
   const { isOpenC1, isOpenC2, isOpenC3, isOpenC4 } = open;
   return (

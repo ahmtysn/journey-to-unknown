@@ -14,7 +14,7 @@ const Todo = ({ comments, removeComment }) => {
                 className='delete-icon'
               />
             </div>
-            <div>
+            <div className='comment-text'>
               <div>{comment.text}</div>
               <div className='comment-time'>{comment.time}</div>
             </div>
