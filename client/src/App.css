@@ -15,15 +15,15 @@
 }
 
 .form {
-  background-color: #212121;
+  background-color: #3b5249;
   min-height: 100vh;
 }
 
 .comment-header {
   text-align: center;
   padding: 2rem;
-  background-color: #af6b58;
-  color: #f2efea;
+  background-color: #382933;
+  color: #065446;
 }
 .comment-form {
   display: flex;
@@ -36,6 +36,13 @@
 .text-area {
   height: 15vh;
   resize: none;
+  background-color: #a4b494;
+  color: #065446;
+}
+.comment-btn {
+  background-color: #333;
+  color: #fff;
+  padding: 2px;
 }
 .comment-container {
   display: flex;
@@ -52,12 +59,15 @@
   border-bottom: 2px solid #333;
   margin: 2px;
   border-radius: 2rem 1rem;
+  color: #1a1c20;
 }
 .comment:nth-child(odd) {
-  background-color: yellow;
+  background-color: #382933;
+  color: #065446;
 }
 .comment:nth-child(even) {
-  background-color: tomato;
+  background-color: #fff;
+  color: #333;
 }
 .delete-text {
   display: flex;
@@ -213,9 +223,6 @@ input {
 .navbar a:hover {
   background: #ddd;
   color: black;
-}
-.hidden {
-  display: none;
 }
 .step {
   background-color: #fff;

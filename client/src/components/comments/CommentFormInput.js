@@ -22,7 +22,9 @@ function CommentFormInput({ addComment }) {
           cols='10'
           rows='20'
         ></textarea>
-        <button onClick={handleSubmit}>Add Comment</button>
+        <button className='comment-btn' type='submit'>
+          Add Comment
+        </button>
       </form>
     </div>
   );
