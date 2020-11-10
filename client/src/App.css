@@ -241,9 +241,7 @@ input {
   .hidden {
     display: none;
   }
-  .navbar a {
-    display: inline-block;
-  }
+
   .navbar {
     top: 0;
     left: 0;

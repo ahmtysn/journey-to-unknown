@@ -19,11 +19,10 @@ function NavBar() {
 
   return (
     <div className='navbar'>
-      <div>
-        <Link to='/'>
-          <BsHouseDoor />
-        </Link>
-      </div>
+      <Link to='/'>
+        <BsHouseDoor />
+      </Link>
+
       <div className='hidden'>
         <Link to='/chapter1'>I</Link>
         <Link to='/chapter2'>II</Link>
@@ -32,10 +31,11 @@ function NavBar() {
         <Link to='/' onClick={resetStory}>
           <IoMdRefresh />
         </Link>
-        <Link to='/form'>
-          <FaRegCommentDots />
-        </Link>
       </div>
+
+      <Link to='/form'>
+        <FaRegCommentDots />
+      </Link>
     </div>
   );
 }
