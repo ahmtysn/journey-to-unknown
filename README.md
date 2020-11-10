@@ -1,17 +1,17 @@
 # Interactive story with ReactJS
 
 ```
-Click here to see live site
+Click below to see live site!
 ```
 
 ### [Live Site](https://5fa9d5f736e9811699f54b0f--lucid-meninsky-df9762.netlify.app/)
 
 ## Introduction
 
--An interactive mafia story created by React.JS.
--You can select your way with your own decisions.
--I hope you enjoy in this journey!
--Also in comments part you can share your feelings about story. It was created with expressJS and mongoose..
+- An interactive mafia story created by React.JS.
+- You can select your way with your own decisions.
+- I hope you enjoy in this journey!
+- Also in comments part you can share your feelings about story. It was created with expressJS and mongoose..
 
 ### How to Setup:
 
