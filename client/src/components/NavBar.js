@@ -19,20 +19,23 @@ function NavBar() {
 
   return (
     <div className='navbar'>
-      <Link to='/'>
-        <BsHouseDoor />
-      </Link>
-      <Link to='/chapter1'>I</Link>
-      <Link to='/chapter2'>II</Link>
-      <Link to='/chapter3'>III</Link>
-      <Link to='/chapter4'>IV</Link>
-      <Link to='/' onClick={resetStory}>
-        <IoMdRefresh />
-      </Link>
-
-      <Link to='/form'>
-        <FaRegCommentDots />
-      </Link>
+      <div>
+        <Link to='/'>
+          <BsHouseDoor />
+        </Link>
+      </div>
+      <div className='hidden'>
+        <Link to='/chapter1'>I</Link>
+        <Link to='/chapter2'>II</Link>
+        <Link to='/chapter3'>III</Link>
+        <Link to='/chapter4'>IV</Link>
+        <Link to='/' onClick={resetStory}>
+          <IoMdRefresh />
+        </Link>
+        <Link to='/form'>
+          <FaRegCommentDots />
+        </Link>
+      </div>
     </div>
   );
 }

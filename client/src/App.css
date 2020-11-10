@@ -220,9 +220,6 @@ input {
   background: #ddd;
   color: black;
 }
-.hidden {
-  display: none;
-}
 .step {
   background-color: #fff;
   color: #212121;
@@ -240,6 +237,9 @@ input {
   }
   p {
     font-size: medium;
+  }
+  .hidden {
+    display: none;
   }
   .navbar a {
     display: inline-block;
