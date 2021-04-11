@@ -14,6 +14,7 @@ import Form from './components/comments/Form';
 import GoHome from './components/GoHome';
 
 function App() {
+  // with open you can not directly go to the next episode
   const [open, setOpen] = useState({
     isOpenC1: false,
     isOpenC2: false,
