@@ -16,6 +16,7 @@ import GoHome from './components/GoHome';
 function App() {
   // with open you can not directly go to the next episode
   const [open, setOpen] = useState({
+    // initial values are false
     isOpenC1: false,
     isOpenC2: false,
     isOpenC3: false,
